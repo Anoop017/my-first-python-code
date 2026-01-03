@@ -1,4 +1,5 @@
-def second_function(a,b):
+def second_function(a, b):
     return a + b
 
-print(second_function(5,7))
+
+print(second_function(5, 8))
