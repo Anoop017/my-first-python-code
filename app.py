@@ -1,5 +1,4 @@
-def increment(number, by):
-    return number + by
+def second_function(a,b):
+    return a + b
 
-result = increment(2,1)
-print(result)
+print(second_function(5,7))
