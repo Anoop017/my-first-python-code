@@ -5,12 +5,7 @@ print(c)
 
 total = a + b
 diff = a - b
-product = a * b
-division = a / b
-remainder = a % b
-floor_division = a // b
-exponential = a ** b
-print(total, diff, product, division, remainder, floor_division, exponential)
+
 
 
 first_name = 'Asabeneh'
