@@ -1,14 +1,17 @@
-a = 16
-b = 3
-c = a//b
-print(c)
+import math
 
-total = a + b
-diff = a - b
+# Area of a circle
+radius = 5
+circle_area = math.pi * radius ** 2
+print(f"Circle area (r={radius}): {circle_area}")
 
+# Area of a rectangle
+length = 10
+width = 4
+rectangle_area = length * width
+print(f"Rectangle area (l={length}, w={width}): {rectangle_area}")
 
-first_name = 'Anoop'
-last_name = 'Nair'
-language = 'Python'
-formated_string = 'I am %s %s. I teach %s' % (first_name, last_name, language)
-print(formated_string)
+# Area of a square
+side = 6
+square_area = side ** 2
+print(f"Square area (s={side}): {square_area}")
